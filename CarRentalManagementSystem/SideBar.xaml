@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="CarRentalManagementSystem.SideBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CarRentalManagementSystem"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="Orange">
+        <StackPanel Orientation="Vertical">
+            <Button Content="Manage Car" Margin="5" Click="btnManageCar_Click" />
+            <Button Content="Manage Customer" Margin="5" Click="btnManageCustomer_Click"/>
+            <Button Content="Manage Car Rental" Margin="5" Click="btnManageCarRetal_Click" />
+            <Button Content="Manage Rental History" Margin="5" />
+        </StackPanel>
+    </Grid>
+</UserControl>
